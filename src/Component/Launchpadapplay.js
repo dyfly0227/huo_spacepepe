@@ -563,7 +563,7 @@ function Home() {
                   src={require("../img/keedx-logo-light.png")}
                   className="logo lighttheme"
                 />
-                <h1>Space PEPE Exchange Launchpad Application Form</h1>
+                <h1>SpacePepe Exchange Launchpad Application Form</h1>
               </div>
             </div>
           </div>
@@ -1143,7 +1143,7 @@ function Home() {
                           <div class="form-group">
                             <label>
                               How much of the Token Sale would you like to
-                              allocate to Space PEPE Exchange Launchpad
+                              allocate to SpacePepe Exchange Launchpad
                             </label>
                             <input
                               type="number"
@@ -1350,7 +1350,7 @@ function Home() {
                       <div className="fonrm_card_s page_dss">
                         <div class="form-group mb-5">
                           <label>
-                            Space PEPE Exchange can publish any of the
+                            SpacePepe Exchange can publish any of the
                             information you provide
                           </label>
                           <div class="custom-control custom-radio mt-3">

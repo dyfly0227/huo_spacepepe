@@ -60,7 +60,7 @@ function Footer() {
               <div class="site-info__row">
                 <section id="block-4" class="widget widget_block widget_text">
                   <p class="site-info__copyright">
-                    Copyright ©2022 Space PEPE Exchange. All rights reserved
+                    Copyright ©2023 SpacePepe Exchange. All rights reserved
                   </p>
                 </section>
                 <section id="nav_menu-7" class="widget widget_nav_menu">
@@ -79,7 +79,7 @@ function Footer() {
                         >
                           <img
                             class="item-icon"
-                            src="https://zebpay.com/wp-content/uploads/2022/02/icon_fb_v1.svg"
+                            src={require("../img/bj/tuite.png")}
                             alt=""
                           />
                           <span class="item-label">Facebook</span>

@@ -128,7 +128,7 @@ function Home() {
                       <div className="card_logoki pading_cardd">
                         <div className="form_content">
                           <h1 className="gradion_text">
-                            Login to Space PEPE Exchange
+                            Login to SpacePepe Exchange
                           </h1>
                           <p>Enter your email and password to login</p>
                         </div>

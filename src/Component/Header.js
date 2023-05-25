@@ -139,7 +139,7 @@ function Header() {
               src={require("../img/bj/logo.png")}
               className="logo lighttheme"
             />
-            <div className="logo-text">Space PEPE Exchange </div>
+            <div className="logo-text">SpacePepe Exchange </div>
           </a>
           <button
             className="navbar-toggler"
@@ -212,7 +212,11 @@ function Header() {
             </form> */}
             <div className="ml-auto padingrespos ">
               <Link to="/trade/ETH_USDT" className="mr-3">
-                <a className="trade111">Trade</a>
+                <a className="trade111">Spot Trade</a>
+              </Link>
+
+              <Link to="/margin/ETH_USDT" className="mr-3">
+                <a className="trade111">Perpetual Trade</a>
               </Link>
 
               {loginCheck == false ? (
@@ -222,13 +226,13 @@ function Header() {
               ) : (
                 ""
               )}
-              <Link to="/launchpadNew" className="mr-3">
+              {/* <Link to="/launchpadNew" className="mr-3">
                 <a className="trade111">Launchpad</a>
               </Link>
 
               <Link to="/p2phome" className="mr-3">
                 <a className="trade111">Cash</a>
-              </Link>
+              </Link> */}
               <a
                 className="btn btn-primary-alta connectBtn colo-fff clooee"
                 onClick={connect}

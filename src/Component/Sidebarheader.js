@@ -94,7 +94,7 @@ const Header = () => {
                       className="logo darktheme big"
                     />
                     <div className="logo-text text-small">
-                      Space PEPE Exchange
+                      SpacePepe Exchange
                     </div>
                   </a>
                 )}
@@ -115,16 +115,16 @@ const Header = () => {
             <NavLink to="/trade/ETH_USDT">
               <div className="header_icon_meniu">
                 <i class="bi bi-graph-up"></i>
-                <span className="text_inn"> Trade</span>
+                <span className="text_inn"> Spot Trade</span>
               </div>
             </NavLink>
             <NavLink to="/margin/ETH_USDT">
               <div className="header_icon_meniu">
                 <i class="bi bi-graph-up"></i>
-                <span className="text_inn"> Margin</span>
+                <span className="text_inn"> Perpetual Trade</span>
               </div>
             </NavLink>
-            <NavLink to="/launchpadNew">
+            {/* <NavLink to="/launchpadNew">
               <div className="header_icon_meniu">
                 <i class="bi bi-download"></i>
                 <span className="text_inn"> Launchpad</span>
@@ -135,7 +135,7 @@ const Header = () => {
                 <i class="bi bi-hdd-rack-fill"></i>
                 <span className="text_inn"> Cash</span>
               </div>
-            </NavLink>
+            </NavLink> */}
             {loginCheck && loginCheck == true ? (
               <NavLink to="/kyc">
                 <div className="header_icon_meniu">

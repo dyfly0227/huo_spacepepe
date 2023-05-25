@@ -94,7 +94,7 @@ function Home() {
               <div className="col-lg-12 p-0">
                 <div className="staking_title launcpad">
                   <div>
-                    <p>Space PEPE Exchange</p>
+                    <p>SpacePepe Exchange</p>
                     <h1>Launchpad</h1>
                   </div>
                   <Button>
@@ -287,7 +287,7 @@ function Home() {
                       </label>
                       <div className="token_img_">
                         <img src={require("../img/bj/logo.png")} />
-                        <h3>Space PEPE Exchange </h3>
+                        <h3>SpacePepe Exchange </h3>
                       </div>
                       <div class="details">
                         <p>
@@ -437,7 +437,7 @@ function Home() {
                       </label>
                       <div className="token_img_">
                       <img src={require('../img/tokeen.png')} />
-                        <h3>Space PEPE Exchange </h3>
+                        <h3>SpacePepe Exchange </h3>
                       </div>
                       <div class="details">
                         <p>

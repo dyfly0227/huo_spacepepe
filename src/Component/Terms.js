@@ -74,12 +74,12 @@ function Home() {
                   Please read these Terms and Conditions ("Terms", "Terms and
                   Conditions") carefully before using the{" "}
                   <a
-                    href="https://Space PEPE Exchange.com/"
+                    href="https://SpacePepe Exchange.com/"
                     target="_blank"
                     rel="noopener noreferrer "
                     class="font-bold c-links "
                   >
-                    https://Space PEPE Exchange.com
+                    https://SpacePepe Exchange.com
                   </a>{" "}
                   website (the "Service", "us", "we", or "our"). Your access to
                   and use of the Service is conditioned on your acceptance of
@@ -112,14 +112,14 @@ function Home() {
                   <li class="mb-4">
                     <p class="u-para--readable mb-6">
                       You are responsible for maintaining the security of your
-                      account and password. Space PEPE Exchange cannot and will
+                      account and password. SpacePepe Exchange cannot and will
                       not be liable for any loss or damage from your failure to
                       comply with this security obligation.
                     </p>
                   </li>
                   <li class="mb-4">
                     <p class="u-para--readable mb-6">
-                      You will promptly notify Space PEPE Exchange if you become
+                      You will promptly notify SpacePepe Exchange if you become
                       aware of any unauthorized use of, or access to, our
                       Service through your account, including any unauthorized
                       use of your password or account.
@@ -127,13 +127,13 @@ function Home() {
                   </li>
                   <li class="mb-4">
                     <p class="u-para--readable mb-6">
-                      Space PEPE Exchange reserves all rights to put hold on
-                      your account if found any suspicious activity
+                      SpacePepe Exchange reserves all rights to put hold on your
+                      account if found any suspicious activity
                     </p>
                   </li>
                   <li class="mb-4">
                     <p class="u-para--readable mb-6">
-                      Space PEPE Exchange reserves all rights to ask any
+                      SpacePepe Exchange reserves all rights to ask any
                       necessary details such as source of funds and other
                       details to investigate and avoid any cases related to
                       money laundering or illegal activities.
@@ -142,17 +142,17 @@ function Home() {
                 </ul>
                 <h3 class="text-xl font-bold my-4">Conduct restrictions</h3>
                 <p class="u-para--readable mb-6">
-                  While using Space PEPE Exchange you agree that under any
+                  While using SpacePepe Exchange you agree that under any
                   circumstance you will not resort to:
                 </p>
                 <ul class="list-circle pl-8">
                   <li class="mb-4">
                     <p class="u-para--readable mb-6">
-                      Attempt to disrupt or tamper with Space PEPE Exchange's
+                      Attempt to disrupt or tamper with SpacePepe Exchange's
                       servers in ways that could harm our Website or Service, to
-                      place undue burden on Space PEPE Exchange's servers
-                      through automated means, or to access Space PEPE
-                      Exchange's Service in ways that exceed your authorization.
+                      place undue burden on SpacePepe Exchange's servers through
+                      automated means, or to access Space PEPE Exchange's
+                      Service in ways that exceed your authorization.
                     </p>
                   </li>
                   <li class="mb-4">
@@ -185,7 +185,7 @@ function Home() {
                   PEPE Exchange team.
                 </p>
                 <p class="u-para--readable mb-6">
-                  The usage of Space PEPE Exchange warrants that consumers don't
+                  The usage of SpacePepe Exchange warrants that consumers don't
                   misuse our Services. For example but not limited to, don't
                   interfere with our Services or try to access them using a
                   method other than the interface and the instructions that we
@@ -233,13 +233,13 @@ function Home() {
                 <p class="u-para--readable mb-6">
                   Yo hereby authorise and give consent to us to call you through
                   any third party service providers to inform / alert regarding
-                  the update related to Space PEPE Exchange. You further confirm
+                  the update related to SpacePepe Exchange. You further confirm
                   that by sending any of such message / calls, you will not hold
-                  Space PEPE Exchange, its thirdy party service provider liable
-                  / institute complaint under the Telecom Commercial
-                  Communication Customer Preference (TRAI) regulation, 2010 or
-                  such other applicable regulations including any amendment
-                  thereof, as may be applicable from time to time.
+                  SpacePepe Exchange, its thirdy party service provider liable /
+                  institute complaint under the Telecom Commercial Communication
+                  Customer Preference (TRAI) regulation, 2010 or such other
+                  applicable regulations including any amendment thereof, as may
+                  be applicable from time to time.
                 </p>
                 <h3 class="text-xl font-bold my-4">Termination</h3>
                 <p class="u-para--readable mb-6">
@@ -311,12 +311,12 @@ function Home() {
                   If you have any questions about this Privacy Policy, please
                   contact us at{" "}
                   <a
-                    href="mailto:hi@Space PEPE Exchange.com"
+                    href="mailto:hi@SpacePepe Exchange.com"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
                     class="font-bold c-links "
                   >
-                    hi@Space PEPE Exchange.com
+                    hi@SpacePepe Exchange.com
                   </a>{" "}
                   or via the contact form.
                 </p>

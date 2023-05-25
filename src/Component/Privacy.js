@@ -670,8 +670,8 @@ function Home() {
                   Privacy Policy, or if you wish to submit a request to exercise
                   your rights as detailed in this Privacy Policy, please contact
                   us at:{" "}
-                  <a href="Space PEPE Exchange.com" target="_blank">
-                    no-reply@Space PEPE Exchange.com
+                  <a href="SpacePepe Exchange.com" target="_blank">
+                    no-reply@SpacePepe Exchange.com
                   </a>
                 </p>
               </div>

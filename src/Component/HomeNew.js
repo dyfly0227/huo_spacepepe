@@ -158,12 +158,13 @@ function Home() {
                         <h1>Begin Trading with Your Favorite Coins</h1>
                         <p>
                           <p>
-                            Welcome to Space PEPE Exchange! A next-gen
-                            Blockchain and Crypto Exchange platform that offers
-                            trader with an endless assets buy and selling
-                            feature with real money.
+                            Welcome to SpacePepe Exchange! A next-gen Blockchain
+                            and Crypto Exchange platform that offers trader with
+                            an endless assets buy and selling feature with real
+                            money.
                           </p>
                         </p>
+
                         <div className="phone_number donwload-form buttondf">
                           {/* <PhoneInput
                             placeholder="Enter phone number"
@@ -177,11 +178,13 @@ function Home() {
                           >
                             START TRADING
                           </Button>
-                          <Button
-                            className="btn--blue "
-                            onClick={() => navigatepage("staking")}
-                          >
-                            INVEST
+                          <Button className="btn--blue ">
+                            <a
+                              href="https://docs.spacepepe.exchange"
+                              target="_blank"
+                            >
+                              Whitepaper
+                            </a>
                           </Button>
                         </div>
                         <ul class="appDownload">
@@ -244,174 +247,7 @@ function Home() {
                 className="col-lg-10"
                 data-aos="fade-up"
                 data-aos-duration="2000"
-              >
-                <div className="slider_coin coin-slider">
-                  <SliderNew {...settings}>
-                    {currencylistData &&
-                      currencylistData.map((obj, i) => {
-                        return (
-                          <div className="diveee">
-                            <div className="coin-slider-card slick-slide">
-                              <a className="coin_container" href="">
-                                <span className="cmc_links">
-                                  <span className="ccpw_icon">
-                                    <img src={obj.Currency_image} />
-                                  </span>
-                                  <div className="coinnenww">
-                                    <span className="coin-title">
-                                      <span className="coin name">
-                                        {obj.currencyName}
-                                      </span>
-                                      <span className="coin-shot-name">
-                                        {obj.currencySymbol}
-                                      </span>
-                                    </span>
-                                    <span className="price">
-                                      {obj.currencySymbol == "SHIB"
-                                        ? parseFloat(obj.marketprice).toFixed(8)
-                                        : parseFloat(obj.marketprice).toFixed(
-                                            2
-                                          )}
-                                    </span>
-                                  </div>
-                                  {/* <span className="percentage-change changesup">
-                              0.03%
-                            </span> */}
-                                </span>
-                              </a>
-                            </div>
-                          </div>
-                        );
-                      })}
-                    {/* <div className="diveee">
-                      <div className="coin-slider-card slick-slide">
-                        <a className="coin_container" href="">
-                          <span className="cmc_links">
-                            <span className="ccpw_icon">
-                              <img src="https://static.zebpay.com/multicoins/ic_coin_usdt.png" />
-                            </span>
-                            <div className="coinnenww">
-                              <span className="coin-title">
-                                <span className="coin name">Tether</span>
-                                <span className="coin-shot-name">USDT</span>
-                              </span>
-                              <span className="price">₹79.92</span>
-                            </div>
-                            <span className="percentage-change changesup">
-                              0.03%
-                            </span>
-                          </span>
-                        </a>
-                      </div>
-                    </div>
-                    <div className="diveee">
-                      <div className="coin-slider-card slick-slide">
-                        <a className="coin_container" href="">
-                          <span className="cmc_links">
-                            <span className="ccpw_icon">
-                              <img src="https://static.zebpay.com/multicoins/ic_coin_usdt.png" />
-                            </span>
-                            <div className="coinnenww">
-                              <span className="coin-title">
-                                <span className="coin name">Tether</span>
-                                <span className="coin-shot-name">USDT</span>
-                              </span>
-                              <span className="price">₹79.92</span>
-                            </div>
-                            <span className="percentage-change changesup">
-                              0.03%
-                            </span>
-                          </span>
-                        </a>
-                      </div>
-                    </div>
-                    <div className="diveee">
-                      <div className="coin-slider-card slick-slide">
-                        <a className="coin_container" href="">
-                          <span className="cmc_links">
-                            <span className="ccpw_icon">
-                              <img src="https://static.zebpay.com/multicoins/ic_coin_usdt.png" />
-                            </span>
-                            <div className="coinnenww">
-                              <span className="coin-title">
-                                <span className="coin name">Tether</span>
-                                <span className="coin-shot-name">USDT</span>
-                              </span>
-                              <span className="price">₹79.92</span>
-                            </div>
-                            <span className="percentage-change changesup">
-                              0.03%
-                            </span>
-                          </span>
-                        </a>
-                      </div>
-                    </div>
-                    <div className="diveee">
-                      <div className="coin-slider-card slick-slide">
-                        <a className="coin_container" href="">
-                          <span className="cmc_links">
-                            <span className="ccpw_icon">
-                              <img src="https://static.zebpay.com/multicoins/ic_coin_usdt.png" />
-                            </span>
-                            <div className="coinnenww">
-                              <span className="coin-title">
-                                <span className="coin name">Tether</span>
-                                <span className="coin-shot-name">USDT</span>
-                              </span>
-                              <span className="price">₹79.92</span>
-                            </div>
-                            <span className="percentage-change changesup">
-                              0.03%
-                            </span>
-                          </span>
-                        </a>
-                      </div>
-                    </div>
-                    <div className="diveee">
-                      <div className="coin-slider-card slick-slide">
-                        <a className="coin_container" href="">
-                          <span className="cmc_links">
-                            <span className="ccpw_icon">
-                              <img src="https://static.zebpay.com/multicoins/ic_coin_usdt.png" />
-                            </span>
-                            <div className="coinnenww">
-                              <span className="coin-title">
-                                <span className="coin name">Tether</span>
-                                <span className="coin-shot-name">USDT</span>
-                              </span>
-                              <span className="price">₹79.92</span>
-                            </div>
-                            <span className="percentage-change changesup">
-                              0.03%
-                            </span>
-                          </span>
-                        </a>
-                      </div>
-                    </div>
-                    <div className="diveee">
-                      <div className="coin-slider-card slick-slide">
-                        <a className="coin_container" href="">
-                          <span className="cmc_links">
-                            <span className="ccpw_icon">
-                              <img src="https://static.zebpay.com/multicoins/ic_coin_usdt.png" />
-                            </span>
-                            <div className="coinnenww">
-                              <span className="coin-title">
-                                <span className="coin name">Tether</span>
-                                <span className="coin-shot-name">USDT</span>
-                              </span>
-                              <span className="price">₹79.92</span>
-                            </div>
-                            <span className="percentage-change changesup">
-                              0.03%
-                            </span>
-                          </span>
-                        </a>
-                      </div>
-                    </div> */}
-                  </SliderNew>
-                </div>
-              </div>
+              ></div>
             </div>
           </div>
         </section>
@@ -419,15 +255,14 @@ function Home() {
           <div className="container">
             <div className="row justify-center">
               <div className="col-lg-10">
-                <h1 className="gradion_text">Why Space PEPE Exchange ?</h1>
+                <h1 className="gradion_text">Why SpacePepe Exchange?</h1>
                 <p className="text_des">
-                  Space PEPE Exchange operates on the ERC-20 network, allowing
-                  it to easily integrate with a wide range of tools across
-                  multiple blockchains, <br />
-                  while maintaining solid security. That’s not all, it also
-                  offers features like: It is a long established fact that a
-                  reader will be distracted by the readable content of a page
-                  when looking at its layout.
+                  SpacePepe Exchange is a centralized exchange, focus on Spot
+                  trade and Perpetual contracts. In contrast to the current
+                  traditional Exchanges, we use the web3 wallet as login
+                  credentials, which is convenient to crypto traders. We also
+                  provide staking and Loan service to provide more choices to
+                  users.
                 </p>
                 <div className="ic__image__sec">
                   <div
@@ -473,9 +308,8 @@ function Home() {
                             </h4>
                             <div className="ic__card__description">
                               <p>
-                                Space PEPE Exchange has the potential to execute
-                                millions of transactions every second, and the
-                                system.
+                                SpacePepe Exchange has the potential to execute
+                                millions of transactions every second.
                               </p>
                             </div>
                             <div className="ic__card__btn"></div>
@@ -506,8 +340,8 @@ function Home() {
                             </h4>
                             <div className="ic__card__description">
                               <p>
-                                The top identity verification systems complete
-                                your KYC within a few hours.
+                                We apply top security service API to go through
+                                your kyc.
                               </p>
                             </div>
                             <div className="ic__card__btn"></div>
@@ -535,7 +369,9 @@ function Home() {
                               Exceptional <br /> Security
                             </h4>
                             <div className="ic__card__description">
-                              <p>Up to 4% returns for crypto fixed deposits</p>
+                              <p>
+                                Using firewall of Cloudflare to prevent hacker.
+                              </p>
                             </div>
                             <div className="ic__card__btn"></div>
                           </div>
@@ -562,11 +398,7 @@ function Home() {
                               Effective & Simple <br /> Theme
                             </h4>
                             <div className="ic__card__description">
-                              <p>
-                                Space PEPE Exchange has the potential to execute
-                                millions of transactions every second, and the
-                                system.
-                              </p>
+                              <p>Easy-to-understand operating interface.</p>
                             </div>
                             <div className="ic__card__btn"></div>
                           </div>
@@ -595,8 +427,8 @@ function Home() {
                             </h4>
                             <div className="ic__card__description">
                               <p>
-                                The top identity verification systems complete
-                                your KYC within a few hours.
+                                Logging centralized exchanges using wallet
+                                credentials.
                               </p>
                             </div>
                             <div className="ic__card__btn"></div>
@@ -610,6 +442,7 @@ function Home() {
             </div>
           </div>
         </section>
+
         {/* <section className="four_secton">
           <div className="container">
             <div className="row justify-center">
@@ -689,15 +522,42 @@ function Home() {
                       data-aos-duration="2000"
                     >
                       <div className="six_secton_s">
-                        <h1>
-                          Crypto Exchange <br />
-                          Platform
-                        </h1>
+                        <h1>Available on Google Play and App Store</h1>
                         <p>
-                          A next-gen Blockchain and Crypto Exchange platform
-                          that offers trader with an endless assets buy and
-                          selling feature with real money.
+                          We offer a variety of trade options in addition to
+                          dapp to make it easier for our customers to use our
+                          products.
                         </p>
+                        <div className="google-apple">
+                          <a
+                            target="_blank"
+                            href="https://play.google.com/store/apps/details?id=com.trade.spacepepeexchange"
+                          >
+                            <img
+                              width="140"
+                              src={require("../img/bj/google.png")}
+                              alt=""
+                            />
+                          </a>
+                          <a
+                            target="_blank"
+                            href="https://play.google.com/store/apps/details?id=com.trade.spacepepeexchange"
+                          >
+                            <div className="apple-logo">
+                              <img
+                                width="140"
+                                src={require("../img/bj/apple.png")}
+                                alt=""
+                              />
+                              <div>
+                                <div className="first-text">
+                                  Download on the
+                                </div>
+                                <div className="second-text">App Store</div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
                         {/* <div className="wp-container-4 wp-block-buttons">
                           <div className="wp-block-button">
                             <Button className="wp-block-button__link">
@@ -713,115 +573,7 @@ function Home() {
                       data-aos-duration="2000"
                     >
                       <div className="img_pic_s img_pic_s_11">
-                        <img src={require("../img/bj/diannao.png")} />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="five_sectonnew step blue_light_bg">
-          <div className="container">
-            <div className="row justify-center">
-              <div className="col-lg-10">
-                <h2 class="h4 step__heading gradion_text ">
-                  Investing in crypto will be <br />
-                  easier than ever.
-                </h2>
-                <p className="text_des">
-                  Space PEPE Exchange makes it easier to invest and trade in
-                  cryptocurrency <br />
-                  than any other platform.
-                </p>
-                <div className="bottom_maa">
-                  <div className="row pt-3 justify-center">
-                    <div
-                      className="col-lg-3"
-                      data-aos="fade-up"
-                      data-aos-duration="2000"
-                    >
-                      <div className="step__item ">
-                        <div className="step__card">
-                          <div className="step__card__img">
-                            <div className="step__card__icon">
-                              <img
-                                src={require("../img/newimg/profileee.png")}
-                                class="attachment-large size-large"
-                                alt=""
-                              />
-                            </div>
-                          </div>
-                          <div class="step__card__copy">
-                            <h5 class="step__card__heading"> Create account</h5>{" "}
-                            <div class="step__card__description">
-                              <p>
-                                Space PEPE Exchange has the potential to execute
-                                millions of transactions every second, and the
-                                system.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-1"></div>
-                    <div
-                      className="col-lg-3"
-                      data-aos="fade-up"
-                      data-aos-duration="2000"
-                    >
-                      <div className="step__item ">
-                        <div className="step__card">
-                          <div className="step__card__img">
-                            <div className="step__card__icon">
-                              <img
-                                src={require("../img/newimg/bank.png")}
-                                class="attachment-large size-large"
-                                alt=""
-                              />
-                            </div>
-                          </div>
-                          <div class="step__card__copy">
-                            <h5 class="step__card__heading">Add funds</h5>
-                            <div class="step__card__description">
-                              <p>
-                                The top identity verification systems complete
-                                your KYC within a few hours.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-1"></div>
-                    <div
-                      className="col-lg-3"
-                      data-aos="fade-up"
-                      data-aos-duration="2000"
-                    >
-                      <div className="step__item step__item00">
-                        <div className="step__card">
-                          <div className="step__card__img">
-                            <div className="step__card__icon">
-                              <img
-                                src={require("../img/newimg/etherene.png")}
-                                class="attachment-large size-large"
-                                alt=""
-                              />
-                            </div>
-                          </div>
-                          <div class="step__card__copy">
-                            <h5 class="step__card__heading">Start investing</h5>
-                            <div class="step__card__description">
-                              <p>
-                                The organisation has done all necessary to make
-                                Space PEPE Exchange the most secure exchange.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
+                        <img src={require("../img/bj/shouji.png")} />
                       </div>
                     </div>
                   </div>
@@ -1082,14 +834,14 @@ function Home() {
                   >
                     <div className="six_secton_s pl-0">
                       <h1 className="gradion_text ">
-                        About Space PEPE Exchange
+                        About SpacePepe Exchange
                       </h1>
 
                       <p>
-                        Now is your time. With Space PEPE Exchange you can buy,
+                        Now is your time. With SpacePepe Exchange you can buy,
                         sell and trade crypto assets with amazing ease,
                         confidence and trust. Whether you’re a first time
-                        investor or a professional trader - Space PEPE Exchange
+                        investor or a professional trader - SpacePepe Exchange
                         has got you both covered!
                       </p>
                     </div>

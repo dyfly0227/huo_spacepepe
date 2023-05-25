@@ -222,7 +222,7 @@ function Home() {
                       <div className="card_logoki pading_cardd">
                         <div className="form_content">
                           <h1 className="gradion_text">
-                            Welcome to Space PEPE Exchange
+                            Welcome to SpacePepe Exchange
                           </h1>
                           <p>
                             Let’s start by submitting your registration details.

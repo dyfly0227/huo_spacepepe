@@ -5994,13 +5994,32 @@ body.light {
 }
 .slider_coin {
   /* background: rgba(194, 194, 221, 0.15); */
-  padding: 22px 0px;
+  /* padding: 22px 0px; */
+  position: relative;
+  height: 100px;
+  overflow: hidden;
   margin: 57px 0 0;
   background: #f7f8fa;
   border-radius: 10px;
   /* padding-bottom: 6px; */
   padding: 17px 20px;
   padding-bottom: 0;
+}
+
+.logo-show {
+  border-radius: 10px;
+}
+.logo-show li {
+  background-color: rgb(201, 158, 63);
+  padding: 10px;
+  border-radius: 5px;
+  width: 162px;
+  height: 60px;
+  margin: 0;
+  margin-top: 10px;
+}
+.logo-show li  img {
+  height: 40px;
 }
 .diveee {
   margin: 10px 0px;
@@ -6533,7 +6552,7 @@ button.wp-block-button__link {
   margin: 0 auto;
 }
 .img_pic_s_11 img {
-  width: 404px;
+  width: 300px;
   margin: 30px auto;
 }
 .gray {
@@ -6542,6 +6561,40 @@ button.wp-block-button__link {
     rgba(194, 194, 221, 0.15) 41.15%,
     rgba(194, 194, 221, 0.1) 100%
   );
+}
+.google-apple {
+  display: flex;
+  margin-top: 40px;
+}
+.google-apple> a{
+  margin-right: 20px;
+  animation: all .3s;
+}
+.google-apple> a:hover {
+  transform: translate(1px,-1px);
+}
+.apple-logo {
+  display: flex;
+  box-sizing: border-box;
+  width: 140px;
+  height: 40px;
+  background-color: #000;
+  border-radius: 4px;
+  color: #fff;
+}
+.apple-logo img {
+  width: 28px;
+  height: 28px;
+  margin: 5px 8px 5px 8px;
+}
+.apple-logo .first-text {
+  font-size: 10px;
+  transform: scale(0.8);
+  margin-left: -10px;
+}
+.apple-logo .second-text{
+  font-size: 18px;
+  margin-top: -6px;
 }
 .latest-offer__item__inner {
   padding: 26px 20px 27px;
@@ -6938,7 +6991,7 @@ button .footer_roeund {
   color: #6720a8 !important;
 }
 .rn-section-gap {
-  padding: 69px 0;
+  padding: 0;
   padding-bottom: 0;
 }
 .footer_newsform label {

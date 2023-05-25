@@ -61,7 +61,7 @@ function Footer() {
                 <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                   <div className="widget-content-wrapper">
                     <div className="footer-left">
-                      <div className="logo-thumbnail logo-custom-css">
+                      {/* <div className="logo-thumbnail logo-custom-css">
                         <a href="" className="logo-light">
                           <img
                             src={require("../img/bj/logo.png")}
@@ -72,7 +72,28 @@ function Footer() {
                             className="logo lighttheme footerlogos"
                           />
                         </a>
-                      </div>
+                      </div> */}
+                      <ul className="logo-show">
+                        <li>
+                          <a href="#">
+                            <img
+                              class="item-icon"
+                              src={require("../img/bj/logo1.png")}
+                              alt=""
+                            />
+                          </a>
+                        </li>
+
+                        <li>
+                          <a href="#">
+                            <img
+                              class="item-icon"
+                              src={require("../img/bj/logo2.png")}
+                              alt=""
+                            />
+                          </a>
+                        </li>
+                      </ul>
                       <div className="footer_newsform">
                         <p className="dfoodsss">
                           A next-gen Blockchain and Crypto Exchange platform
@@ -131,7 +152,7 @@ function Footer() {
               <div class="site-info__row">
                 <section id="block-4" class="widget widget_block widget_text">
                   <p class="site-info__copyright">
-                    Copyright ©2022 Space PEPE Exchange. All rights reserved
+                    Copyright ©2023 SpacePepe Exchange. All rights reserved
                   </p>
                 </section>
                 <section id="nav_menu-7" class="widget widget_nav_menu">
@@ -145,12 +166,12 @@ function Footer() {
                         <a
                           target="_blank"
                           rel="noopener"
-                          href=""
+                          href="https://twitter.com/spacepeexchange"
                           class="nav-link"
                         >
                           <img
                             class="item-icon"
-                            src="https://zebpay.com/wp-content/uploads/2022/02/icon_fb_v1.svg"
+                            src={require("../img/bj/tuite.png")}
                             alt=""
                           />
                           <span class="item-label">Facebook</span>
@@ -163,12 +184,12 @@ function Footer() {
                         <a
                           target="_blank"
                           rel="noopener"
-                          href=""
+                          href="https://t.me/SpacePepe_Exchange"
                           class="nav-link"
                         >
                           <img
                             class="item-icon"
-                            src="https://zebpay.com/wp-content/uploads/2022/02/icon_insta_v1.svg"
+                            src={require("../img/bj/telegram.png")}
                             alt=""
                           />
                           <span class="item-label">Instagram</span>
@@ -181,69 +202,15 @@ function Footer() {
                         <a
                           target="_blank"
                           rel="noopener"
-                          href=""
+                          href="https://t.me/SpacePepe_Exchange_Announcement"
                           class="nav-link"
                         >
                           <img
                             class="item-icon"
-                            src="https://zebpay.com/wp-content/uploads/2022/02/icon_linkedIn_v1.svg"
+                            src={require("../img/bj/telegram.png")}
                             alt=""
                           />
                           <span class="item-label">LinkedIn</span>
-                        </a>
-                      </li>
-                      <li
-                        id="menu-item-754"
-                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-754"
-                      >
-                        <a
-                          target="_blank"
-                          rel="noopener"
-                          href=""
-                          class="nav-link"
-                        >
-                          <img
-                            class="item-icon"
-                            src="https://zebpay.com/wp-content/uploads/2022/02/icon_twitter_v1.svg"
-                            alt=""
-                          />
-                          <span class="item-label">Twitter</span>
-                        </a>
-                      </li>
-                      <li
-                        id="menu-item-755"
-                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-755"
-                      >
-                        <a
-                          target="_blank"
-                          rel="noopener"
-                          href=""
-                          class="nav-link"
-                        >
-                          <img
-                            class="item-icon"
-                            src="https://zebpay.com/wp-content/uploads/2022/02/icon_youtube_v1.svg"
-                            alt=""
-                          />
-                          <span class="item-label">YouTube</span>
-                        </a>
-                      </li>
-                      <li
-                        id="menu-item-756"
-                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-756"
-                      >
-                        <a
-                          target="_blank"
-                          rel="noopener"
-                          href=""
-                          class="nav-link"
-                        >
-                          <img
-                            class="item-icon"
-                            src="https://zebpay.com/wp-content/uploads/2022/02/icon_pint_v1.svg"
-                            alt=""
-                          />
-                          <span class="item-label">Pinterest</span>
                         </a>
                       </li>
                     </ul>

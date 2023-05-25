@@ -77,17 +77,16 @@ function Home() {
         <div className="container">
           <div className="row justify-center">
             <div className="col-lg-10">
-              <h1>About Space PEPE Exchange</h1>
+              <h1>About SpacePepe Exchange</h1>
 
               <div class="mx-auto u-para--readable">
                 <span>Last updated: 12 feb 2023</span>
                 <p class="u-para--readable mb-6">
-                  At Space PEPE Exchange, our mission is to make buying,
-                  selling, and holding cryptocurrencies simple, safe, and
-                  accessible for everyone. We believe that cryptocurrencies have
-                  the potential to revolutionize the financial industry, and
-                  we're committed to playing a leading role in this
-                  transformation.
+                  At SpacePepe Exchange, our mission is to make buying, selling,
+                  and holding cryptocurrencies simple, safe, and accessible for
+                  everyone. We believe that cryptocurrencies have the potential
+                  to revolutionize the financial industry, and we're committed
+                  to playing a leading role in this transformation.
                   {/*  */}
                 </p>
                 <p class="u-para--readable mb-6">
@@ -115,7 +114,7 @@ function Home() {
                 </p>
                 <p class="u-para--readable mb-6">
                   So join us on this journey, and discover a world of endless
-                  possibilities with Space PEPE Exchange.
+                  possibilities with SpacePepe Exchange.
                   {/*  */}
                 </p>
               </div>
